@@ -1,11 +1,15 @@
 import "./App.module.css";
-import Login from "./components/Login/Login";
+//Router
+import { Routes, Route, Link } from "react-router-dom";
+import Login from "./components/loginBox/Login";
+import Template from "./components/TemplateAll/Template";
 
 function App() {
     return (
-        <div className="g-log">
-            <Login />
-        </div>
+        <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/template" element={<Template />} />
+        </Routes>
     );
 }
 
