@@ -2,7 +2,7 @@ import "./App.module.css";
 //Router
 import { Routes, Route, Link } from "react-router-dom";
 import Login from "./components/loginBox/Login";
-import Template from "./components/TemplateAll/Template";
+import Template from "./components/templateAll/Template";
 
 function App() {
     return (
