@@ -1,0 +1,64 @@
+@value makerBlack from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerLightGrey from '../../common/colors.css';
+@value makerLightPink from '../../common/colors.css';
+@value makerGrey from '../../common/colors.css';
+@value makerGreen from '../../common/colors.css';
+@value makerPink from '../../common/colors.css';
+@value makerShadow from '../../common/colors.css';
+@value makerColorful from '../../common/colors.css';
+@value makerWheat from '../../common/colors.css';
+@value makerblue from '../../common/colors.css';
+
+.makerAndPreview {
+    display: flex;
+}
+.cardmaker {
+    color: makerBlack;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    background: red;
+    width: inherit;
+}
+.userInputForm {
+    width: 50%;
+    background: blue;
+}
+.cardPreviewPlatForm {
+    width: 50%;
+}
+.optionBlack {
+    color: white;
+    background: makerBlack;
+}
+.optionWhite {
+    background: makerWhite;
+}
+.optionLightPink {
+    background: makerLightPink;
+}
+.optionLightGrey {
+    background: makerLightGrey;
+}
+.optionGrey {
+    background: makerGrey;
+}
+.optionGreen {
+    background: makerGreen;
+}
+.optionPink {
+    background: makerPink;
+}
+.optionShadow {
+    background: makerShadow;
+}
+.optionColorful {
+    background: makerColorful;
+}
+.optionWheat {
+    background: makerWheat;
+}
+.optionBlue {
+    background: makerblue;
+}
