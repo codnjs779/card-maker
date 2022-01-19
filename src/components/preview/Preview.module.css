@@ -19,7 +19,7 @@
     border-radius: 10px;
 }
 .line {
-    width: 100%;
+    width: 90%;
     background: white;
     margin-left: 2px;
 }
@@ -55,4 +55,15 @@
 .userImg img {
     margin-left: 50px;
     margin-top: 65px;
+}
+
+@media screen and (max-width: 800px) {
+    .userInfoBox {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .line {
+        width: 80%;
+    }
 }

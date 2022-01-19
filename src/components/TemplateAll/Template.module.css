@@ -35,3 +35,13 @@
     width: 50%;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .templateAll {
+        flex-direction: column;
+    }
+    .createTemplate,
+    .preview {
+        width: 100%;
+    }
+}
