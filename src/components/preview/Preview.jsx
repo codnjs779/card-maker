@@ -3,22 +3,23 @@ import styles from "./Preview.module.css";
 import logo from "../../images/logo.png";
 const Preview = (userInfo) => {
     const user = userInfo.userInfo;
-    console.log(user.backgd);
+
+    const customeStyle = { background: user.backgd };
     return (
         <>
-            <div className={styles.previewTitle}>Card Preview</div>
-            <div className={styles.userInfoBox}>
+            <h1 className={styles.previewTitle}>Card Preview</h1>
+            <div className={styles.userInfoBox} style={customeStyle}>
                 <div className={styles.userImg}>
                     <img src={logo} alt="" />
                 </div>
                 <div className={styles.infoTxt}>
-                    <input className={styles.name} value={user.name} />
+                    <input disabled className={styles.name} defaultValue={user.name} />
 
-                    <input className={styles.company} value={user.company} />
+                    <input disabled className={styles.company} defaultValue={user.company} />
                     <hr className={styles.line}></hr>
-                    <input className={styles.postion} value={user.position} />
-                    <input className={styles.userEmail} value={user.email} />
-                    <input className={styles.Introduction} value={user.introduction} />
+                    <input disabled className={styles.postion} defaultValue={user.position} />
+                    <input disabled className={styles.userEmail} defaultValue={user.email} />
+                    <input disabled className={styles.Introduction} defaultValue={user.introduction} />
                 </div>
             </div>
         </>

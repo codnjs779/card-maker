@@ -10,24 +10,6 @@
 @value makerWheat from '../../common/colors.css';
 @value makerblue from '../../common/colors.css';
 
-.makerAndPreview {
-    display: flex;
-}
-.cardmaker {
-    color: makerBlack;
-    font-size: 50px;
-    font-weight: bold;
-    display: inline-block;
-    background: red;
-    width: inherit;
-}
-.userInputForm {
-    width: 50%;
-    background: blue;
-}
-.cardPreviewPlatForm {
-    width: 50%;
-}
 .optionBlack {
     color: white;
     background: makerBlack;
@@ -61,4 +43,34 @@
 }
 .optionBlue {
     background: makerblue;
+}
+
+.cardTemplate {
+    margin-left: 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTemplate input {
+    border: none;
+    background: makerblue;
+    width: 50%;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.bgColor select {
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cardTemplate span {
+    width: 150px;
+
+    display: inline-block;
 }

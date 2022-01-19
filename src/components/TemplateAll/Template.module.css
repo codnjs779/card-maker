@@ -19,3 +19,19 @@
     color: makerWhite;
     margin-bottom: 5px;
 }
+.templateAll {
+    display: flex;
+}
+.templateAll h1 {
+    color: makerBlack;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+}
+.createTemplate,
+.preview {
+    width: 50%;
+    margin-top: 10px;
+}
