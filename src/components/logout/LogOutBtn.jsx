@@ -7,13 +7,8 @@ import { authentication } from "../../config/firebase-config";
 
 function LogoutBtn() {
     const navigate = useNavigate();
-    const [account, setAccount] = useState();
     const logoutBtnHandler = (provider) => {
         setPersistence(authentication, inMemoryPersistence)
-            .then(() => {
-                setAccount({ provider });
-                console.log(account);
-            })
             .then(() => {
                 navigate("/");
                 return signInWithRedirect(authentication, provider);

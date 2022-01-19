@@ -15,7 +15,6 @@ const Login = () => {
     const signHandler = (provider) => {
         signInWithPopup(authentication, provider)
             .then((res) => {
-                console.log(provider);
                 navigate("/template");
             })
             .catch((err) => {
